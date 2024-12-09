@@ -12,7 +12,7 @@ dependencies:
   
 ```
 ### Egypt Map JSON
-The "egypt.json" file required for rendering Egypt's map is included with this package. No additional setup is needed for map data.
+The `egypt.json` file required for rendering Egypt's map is included with this package. No additional setup is needed for map data.
 
 ### Screenshot
 
