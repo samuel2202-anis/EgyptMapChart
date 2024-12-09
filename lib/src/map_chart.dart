@@ -43,7 +43,7 @@ class EgyptMapChart extends StatelessWidget {
           layers: <MapShapeLayer>[
             MapShapeLayer(
               source: MapShapeSource.asset(
-                'assets/egypt.json',
+                'packages/egypt_map_chart/assets/egypt.json',
                 shapeDataField: 'adm2',
                 dataCount: data.length,
                 primaryValueMapper: (int index) => data[index].state,
