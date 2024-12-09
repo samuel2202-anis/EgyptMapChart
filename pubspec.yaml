@@ -1,0 +1,17 @@
+name: egypt_map_chart
+description: A Flutter package for displaying Egypt map charts with heat map visualization
+version: 0.0.1
+homepage: https://github.com/yourusername/egypt_map_chart
+
+environment:
+  sdk: '>=3.0.0 <4.0.0'
+  flutter: ">=3.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+  syncfusion_flutter_maps: 
+
+flutter:
+  assets:
+    - assets/egypt.json
