@@ -18,3 +18,11 @@ The "egypt.json" file required for rendering Egypt's map is included with this p
 
 ![Capture](https://github.com/user-attachments/assets/ae8e2f78-c585-4003-b457-96a63fb310fe)
 
+
+## License
+
+This package is licensed under the MIT License. See the [LICENSE](./LICENSE) file for details.
+
+Note: This package depends on the `syncfusion_flutter_maps` package, which is subject to its own licensing terms. See the [Syncfusion License](https://www.syncfusion.com/content/downloads/syncfusion_license.pdf) for more information.
+
+
