@@ -16,7 +16,8 @@ The `egypt.json` file required for rendering Egypt's map is included with this p
 
 ### Screenshot
 
-![Capture](https://github.com/user-attachments/assets/ae8e2f78-c585-4003-b457-96a63fb310fe)
+![Capture](https://github.com/user-attachments/assets/8d63828e-5fec-466d-8848-d2e3931348e4)
+
 
 
 ## License
