@@ -23,16 +23,18 @@ class EgyptMapChart extends StatelessWidget {
     this.tooltipBuilder,
   });
 
-  /// Calculate color shade based on value
-  Color _getColorShade(double value) {
-    // Find the maximum value in the dataset
-    final maxValue = data.map((e) => e.value).reduce((a, b) => a > b ? a : b);
+ /// Calculate color shade based on value
+Color _getColorShade(double value) {
+  // Find the maximum value in the dataset
+  final maxValue = data.map((e) => e.value).reduce((a, b) => a > b ? a : b);
 
-    // Calculate opacity based on value (0.2 to 1.0 range)
-    final opacity = 0.2 + ((value / maxValue) * 0.8);
-    
-    return baseColor.withOpacity(opacity);
-  }
+  // Calculate the normalized alpha value (0.2 to 1.0 range)
+  final alpha = 0.2 + ((value / maxValue) * 0.8);
+
+  // Adjust the color's alpha using withValues
+  return baseColor.withValues(alpha: alpha);
+}
+
 
   @override
   Widget build(BuildContext context) {
