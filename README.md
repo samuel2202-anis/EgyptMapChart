@@ -1,4 +1,4 @@
-## Egypt Map Customization for Syncfusion Flutter Maps
+## 🇪🇬 Egypt Map Customization for Syncfusion Flutter Maps
 
 This package provides Egypt-specific region mapping and customizations for use in your Flutter applications. It allows users to easily visualize data across Egypt's regions.  
 
@@ -26,4 +26,5 @@ This package was developed using the `syncfusion_flutter_maps` package as a base
 This package is licensed under the MIT License. See the [LICENSE](./LICENSE) file for details.  
 
 Note: This package leverages the `syncfusion_flutter_maps` package for Egypt map customization. Syncfusion's own licensing terms apply to their package. See the [Syncfusion License](https://www.syncfusion.com/content/downloads/syncfusion_license.pdf) for more information.  
+
 
